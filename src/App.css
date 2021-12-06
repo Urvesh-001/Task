@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.cart {
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cart div{
+  display: flex;
+}
+
+.cart div h1{
+  margin-right: 10px;
+}
+
+.cart div img{
+  padding: 10px 0 5px 0;
+  height: 70px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+.productWrapper{
+  padding-bottom: 130px;
 }
