@@ -1,7 +1,7 @@
 import {React,useState} from "react";
 import "./Popup.css"
 
-var count = 0;
+
 const Popup = props => {
   
   const [count, setCount] = useState(0); 
@@ -15,7 +15,7 @@ const Popup = props => {
       <div className="box">
           <div className="MainBox">
               <div className="Left">
-                  <div className="PImage"><img src={props.product.imgURL}/></div>
+                  <div className="PImage"><img src={props.product.imgURL} alt="imgrender"/></div>
               </div>
               <div className="Right">
                   <div className="PName">{props.product.name}</div>

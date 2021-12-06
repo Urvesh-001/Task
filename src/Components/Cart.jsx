@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import '../App.css'
 const Cart = ({ cart }) => {
     console.log(cart);
@@ -9,7 +9,7 @@ const Cart = ({ cart }) => {
                     return (
                         <div key={index}>
                             <h1>{element[0].name}</h1>
-                            <img src={element[0].imgURL} />
+                            <img src={element[0].imgURL} alt="imgrender"/>
                         </div>
                     )
                 })
